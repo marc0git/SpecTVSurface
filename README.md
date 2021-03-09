@@ -2,9 +2,7 @@
 ### Nonlinear Spectral Geometry Processing via the TV Transform
 
 This repository contains the MATLAB implementation of:
-
-*Nonlinear Spectral Geometry Processing via the TV Transform.*  
-by Marco Fumero, Michael Moeller, Emanuele Rodolà.  
+M.Fumero, M.Moeller, E.Rodolà, *Nonlinear Spectral Geometry Processing via the TV Transform.*
 ACM Trans. Graph.39, 6, Article 199, presented at SIGGRAPH 2020.  
 https://dl.acm.org/doi/abs/10.1145/3414685.3417849
 
