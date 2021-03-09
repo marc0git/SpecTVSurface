@@ -61,6 +61,7 @@ plot(tt,tv_score)
 xlabel("$t$","Interpreter","latex")
 ylabel("$TV(u(t))$","Interpreter","latex")
 title("TV energy")
+set(gcf, 'Color', 'w');
 
 %%
 ff=figure('OuterPosition',[1 1 1000 1000]);
@@ -121,7 +122,10 @@ h1(8)=1;
 h2(13)=1;
 h3(24)=1;
 
-%%
+
+%% plot the results (akin to figure 4 in the paper)
+
+%create a  simple colormap
 a=[ 255,166,0;0 110 180];
 a=a/255.;
 jmax=5;
@@ -130,9 +134,6 @@ cmap(1,:)=a(1,:);
 for i=2:jmax
     cmap(i,:)=a(2,:);
 end
-%% plot the results (akin to figure 4 in the paper)
-
-
 
 figure(6)
 subplot(2,4,[1,2])
@@ -173,3 +174,5 @@ set(gcf, 'Color', 'w');
 close("5")
 close("4")
 colormap(cmap)
+
+
