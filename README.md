@@ -70,7 +70,7 @@ https://dl.acm.org/doi/abs/10.1145/3414685.3417849
 
 ```
 ## Usage
-The scripts '< example.m >' and '< scalar_example.m >' contains minimal implementations of the computation of TV spectral demposition on a scalar function and on a normal vector field signal, respectively.
+The scripts `example.m` and `scalar_example.m` contain minimal implementations of the computation of TV spectral dempositions for a scalar function and dor a normal vector field signal defined on surfaces, respectively.
 The latter also embeds an interactive GUI that you can play with to apply filters in the TV spectral domain.
 
 
