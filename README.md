@@ -1,5 +1,7 @@
 # SpecTVSurface
 ### Nonlinear Spectral Geometry Processing via the TV Transform
+[![Generic badge](https://img.shields.io/badge/<MATLAB>-<R2020a>-<orange>.svg)](https://www.mathworks.com)
+
 
 ![alt text](https://github.com/marc0git/SpecTVSurface/blob/master/teasertv.png)
 
@@ -69,5 +71,7 @@ The repository contains two minimal example of spectral deompositions
 └── scalar_example.m
 
 ```
+##Usage
 The scripts ' example.m ' and 'scalar_example.m' contains minimal implementations of the computation of TV spectral demposition on a scalar function and on a normal vector field signal, respectively.
-The latter contains embeds also an interactive GUI that you can play with to apply filter in the TV spectral domain.
+The latter also embeds an interactive GUI that you can play with to apply filters in the TV spectral domain.
+
