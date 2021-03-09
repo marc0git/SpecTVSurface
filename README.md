@@ -26,7 +26,8 @@ https://dl.acm.org/doi/abs/10.1145/3414685.3417849
     ├── startgui.m    
 └── meshIO
     ├── loadoff.m
-└── meshUtilities    
+└── meshUtilities
+    ├── adjacency_mat.m
     ├── calc_LB_FEM.m        
     ├── calc_tri_areas.m
     ├── compute_normals.m     
@@ -45,6 +46,7 @@ https://dl.acm.org/doi/abs/10.1145/3414685.3417849
 └── plotUtilities    
     ├── add_lights.m       
     ├── add_shadow.m
+    ├── draw_shape.m
     ├── inset.m  
     ├── plot_mesh.m
     └── render_options.m 
