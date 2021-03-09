@@ -149,7 +149,7 @@ flag_mask=0;
             
             N=M;
             N.VERT=N.VERT*R';
-            mask_tmp=draw_shape3(N,1);
+            mask_tmp=draw_shape(N,1);
             if flag_mask
                 mask=or(mask,mask_tmp);
                 
@@ -158,7 +158,7 @@ flag_mask=0;
             end
             flag_mask=0;
             
-            close(tmp)
+            %close(tmp)
             mask=vertex2triang(M,mask);
             new_pos = get(bdh,'YData');
             dif=reshape(new_pos./S,1,1,[]);

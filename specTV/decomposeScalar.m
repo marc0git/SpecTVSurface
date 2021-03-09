@@ -51,6 +51,7 @@ tic
 
 %time=0;
 
+disp("Start the spectral decomposition")
 
 for k=1:nComp
     %rescale the maximum number operation to speed up the algorithm
@@ -122,6 +123,7 @@ end
 phi=phi(:,1:k);
 sub=sub(:,1:k);
 
-
+disp("Ended succesfully")
+end
 
 

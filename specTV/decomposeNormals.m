@@ -36,6 +36,7 @@ v=0;
 %maximum number of iterations for the PDHG algorithm
 iter=1000;
 
+disp("Start the spectral decomposition")
 tic
 for k=1:nComp
     %rescale the maximum number operation to speed up the algorithm
@@ -101,6 +102,7 @@ end
 phi=phi(:,:,1:k);
 sub=sub(:,:,1:k);
 
+disp("Ended succesfully")
 end
 
 
