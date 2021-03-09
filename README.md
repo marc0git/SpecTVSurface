@@ -80,6 +80,8 @@ The latter also embeds an interactive GUI that you can play with to apply filter
 Below you can find an example of computing a localized low pass filter on the wing of the gargoyle model, using the GUI
 
 
+https://user-images.githubusercontent.com/32999329/110501601-a26a8000-80fa-11eb-8779-d5acab546438.mp4
+
 
 
 ## Cite
