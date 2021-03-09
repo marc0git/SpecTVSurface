@@ -1,6 +1,8 @@
 # SpecTVSurface
 ### Nonlinear Spectral Geometry Processing via the TV Transform
 
+![alt text](https://github.com/marc0git/SpecTVSurface/blob/master/teasertv.png)
+
 This repository contains the MATLAB implementation of:
 M.Fumero, M.Moeller, E.Rodolà, *Nonlinear Spectral Geometry Processing via the TV Transform.*
 ACM Trans. Graph.39, 6, Article 199, presented at SIGGRAPH 2020.  
