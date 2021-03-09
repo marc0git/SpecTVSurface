@@ -14,8 +14,6 @@ https://dl.acm.org/doi/abs/10.1145/3414685.3417849
 
 ![gif link](https://media.giphy.com/media/wKb9gZ5zrdFeYItdUB/giphy.gif)
 
-The repository contains two minimal example of spectral deompositions
-
 
 # Structure
 
@@ -74,4 +72,28 @@ The repository contains two minimal example of spectral deompositions
 ## Usage
 The scripts ' example.m ' and 'scalar_example.m' contains minimal implementations of the computation of TV spectral demposition on a scalar function and on a normal vector field signal, respectively.
 The latter also embeds an interactive GUI that you can play with to apply filters in the TV spectral domain.
+
+
+## Cite
+If you make use of this code in your own work, please cite our paper:
+```
+@article{10.1145/3414685.3417849,
+author = {Fumero, Marco and M\"{o}ller, Michael and Rodol\`{a}, Emanuele},
+title = {Nonlinear Spectral Geometry Processing via the TV Transform},
+year = {2020},
+issue_date = {December 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {39},
+number = {6},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3414685.3417849},
+doi = {10.1145/3414685.3417849},
+journal = {ACM Trans. Graph.},
+month = nov,
+articleno = {199},
+numpages = {16},
+keywords = {spectral geometry, total variation}
+}
+```
 
