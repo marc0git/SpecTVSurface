@@ -76,6 +76,12 @@ The scripts `example.m` and `scalar_example.m` contain minimal implementations o
 The latter also embeds an interactive GUI that you can play with to apply filters in the TV spectral domain.
 
 
+## GUI usage
+Below you can find an example of computing a localized low pass filter on the wing of the gargoyle model, using the GUI
+
+![gif link](https://media.giphy.com/media/95uYEyib5zc9Q6jZvk/giphy.gif)
+
+
 ## Cite
 If you make use of this code in your own work, please cite our paper:
 ```
