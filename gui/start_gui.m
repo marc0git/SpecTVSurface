@@ -35,7 +35,7 @@ trisurf(sphere.TRIV,sphere.VERT(:,1),sphere.VERT(:,2),sphere.VERT(:,3),'FaceColo
 w=plot_mesh(M.f,vertex2triang(M,M.VERT(:,1))); title('Normals');hold off;
 colormap(gca,'parula')
 subplot(1,3,2)
-q=plot_mesh(M,M.VERT(:,1)); view([0 90]); colormap(parula);camlight head;rotate(q,[0,1,0],20);
+q=plot_mesh(M,M.VERT(:,1)); view([0 90]); colormap(parula);add_lights;%Srotate(q,[0,1,0],20);
 %colormap(gca,'white')
 subplot(1,3,3);
 tsh=plot(S,'LineWidth',2);xlabel("$t$","Interpreter","latex")

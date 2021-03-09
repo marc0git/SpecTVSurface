@@ -58,6 +58,5 @@ ylabel("$S(t)$","Interpreter","latex")
 title("TV spectrum")
 %% starts the interactive GUI according to the computed decomposition
 M.f=u0;
-S(1)=1e-5;
 start_gui(S,M)
 
