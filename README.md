@@ -71,7 +71,7 @@ The repository contains two minimal example of spectral deompositions
 └── scalar_example.m
 
 ```
-##Usage
+## Usage
 The scripts ' example.m ' and 'scalar_example.m' contains minimal implementations of the computation of TV spectral demposition on a scalar function and on a normal vector field signal, respectively.
 The latter also embeds an interactive GUI that you can play with to apply filters in the TV spectral domain.
 
