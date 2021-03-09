@@ -12,3 +12,61 @@ https://dl.acm.org/doi/abs/10.1145/3414685.3417849
 
 ![gif link](https://media.giphy.com/media/wKb9gZ5zrdFeYItdUB/giphy.gif)
 
+The repository contains two minimal example of spectral deompositions
+
+
+# Structure
+
+```bash
+.
+├── DATA               # Directory containing input meshes
+│   ├── bob.off
+│   ├── garg.off
+└── gui
+    ├── startgui.m    
+└── meshIO
+    ├── loadoff.m
+└── meshUtilities    
+    ├── calc_LB_FEM.m        
+    ├── calc_tri_areas.m
+    ├── compute_normals.m     
+    ├── div.m   
+    ├── edges.m     
+    ├── edges_legths.m         
+    ├── gaussian.m  
+    ├── gaussian_indicator.m
+    ├── grad.m 
+    ├── gradient_edge.m
+    ├── icosphere.m
+    ├── lumpedAreas.m  
+    ├── total_variation.m
+    ├── vertex2triang.m
+    └── vertex_from_normals.m
+└── plotUtilities    
+    ├── add_lights.m       
+    ├── add_shadow.m
+    ├── inset.m  
+    ├── plot_mesh.m
+    └── render_options.m 
+└── specTV   
+    ├── L2squaredProx.m     
+    ├── L2squaredProxMasked.m
+    ├── PDHG_ACC.m
+    ├── PDHG_ACC_n.m
+    ├── decomposeNormals.m
+    └── decomposeScalar.m
+└── utils 
+    ├── Pfilter.m   
+    ├── axisangle2matrix.m
+    ├── findpeaks.m
+    ├── normalizerow.m
+    ├── normv.m
+    ├── pickregion.m
+    ├── repdiag.m
+    ├── spdiag.m
+    └── timescale_iss.m
+└── src
+    ├── common          # common Python modules
+    ├── pl_data         # PyTorch Lightning datamodules and example.m
+scalar_example.m
+```t
