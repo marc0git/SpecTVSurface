@@ -72,12 +72,12 @@ https://dl.acm.org/doi/abs/10.1145/3414685.3417849
 
 ```
 ## Usage
-The scripts `example.m` and `scalar_example.m` contain minimal implementations of the computation of TV spectral dempositions for a scalar function and dor a normal vector field signal defined on surfaces, respectively.
+The scripts `example.m` and `scalar_example.m` contain minimal implementations of examples for computing the TV spectral decompositions for scalar functions and for normal vector field signals defined on surfaces, respectively.
 The latter also embeds an interactive GUI that you can play with to apply filters in the TV spectral domain.
 
 
 ## GUI usage
-Below you can find an example of computing a localized low pass filter on the wing of the gargoyle model, using the GUI
+Below you can find an example of computing a localized low pass filter on the wing of the gargoyle model, using the GUI:
 
 
 https://user-images.githubusercontent.com/32999329/110501601-a26a8000-80fa-11eb-8779-d5acab546438.mp4
