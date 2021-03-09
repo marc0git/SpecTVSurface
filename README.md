@@ -10,7 +10,7 @@ M.Fumero, M.Moeller, E.Rodolà, *Nonlinear Spectral Geometry Processing via the 
 ACM Trans. Graph.39, 6, Article 199, presented at SIGGRAPH 2020.  
 https://dl.acm.org/doi/abs/10.1145/3414685.3417849
 
-<p align="center">
+
 
 ![gif link](https://media.giphy.com/media/wKb9gZ5zrdFeYItdUB/giphy.gif)
 
@@ -79,7 +79,7 @@ The latter also embeds an interactive GUI that you can play with to apply filter
 ## GUI usage
 Below you can find an example of computing a localized low pass filter on the wing of the gargoyle model, using the GUI
 
-![gif link](https://media.giphy.com/media/95uYEyib5zc9Q6jZvk/giphy.gif)
+
 
 
 ## Cite
