@@ -65,9 +65,9 @@ The repository contains two minimal example of spectral deompositions
     ├── repdiag.m
     ├── spdiag.m
     └── timescale_iss.m
-example.m
-scalar_example.m
+└── example.m
+└── scalar_example.m
 
-```t
+```
 The scripts ' example.m ' and 'scalar_example.m' contains minimal implementations of the computation of TV spectral demposition on a scalar function and on a normal vector field signal, respectively.
 The latter contains embeds also an interactive GUI that you can play with to apply filter in the TV spectral domain.
