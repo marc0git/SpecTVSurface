@@ -12,7 +12,7 @@ https://dl.acm.org/doi/abs/10.1145/3414685.3417849
 
 
 
-![gif link](https://media.giphy.com/media/wKb9gZ5zrdFeYItdUB/giphy.gif)
+
 
 
 # Structure
@@ -106,4 +106,4 @@ numpages = {16},
 keywords = {spectral geometry, total variation}
 }
 ```
-
+![gif link](https://media.giphy.com/media/wKb9gZ5zrdFeYItdUB/giphy.gif)
